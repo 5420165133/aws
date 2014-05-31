@@ -1,2 +1,2 @@
 <h1>This is a server.</h1>
-<cfdump var="#CGI#">
+cgi.local_host:<cfoutput>#cgi.local_host#</cfoutput>
