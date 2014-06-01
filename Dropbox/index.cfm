@@ -9,7 +9,7 @@
   <h3>#DateFormat(correct_now, "mm/dd/yyyy")# - #TimeFormat(correct_now, "hh:mm tt")#</h3>
 source_code_location: #source_code_location#<br />
 <cfif file_info.RecordCount GT 0>
-    last_edited: #file_info.dateLastModified[1]#
+    last_edited: #DateAdd("h",time_offset,file_info.dateLastModified[1])#
 </cfif>
 <meta http-equiv="refresh" content="600">
 </cfoutput>
