@@ -5,7 +5,7 @@
 <cfset twilioFrom = "260-791-2120" />
 <cfset twilioSMSResource = (
     "http://api.twilio.com/2008-08-01" &
-    "/Accounts/#twilioUsername#/SMS/Messages"
+    "/Accounts/#accountSid#/SMS/Messages"
     ) />
 <cfparam name="form.to" type="string" default="+12602676520" />
 <cfparam name="form.message" type="string" default="T234he computer repair guys are at https://www.facebook.com/FortWayneComputers" />
