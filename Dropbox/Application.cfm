@@ -3,5 +3,6 @@
 <cfelse>
   <cfset source_code_location = "C:\inetpub\wwwroot\Dropbox\">
 </cfif>
-<cfset correct_now = DateAdd("h",-4,Now())>
+<cset time_offset = "-4"/>
+<cfset correct_now = DateAdd("h",time_offset,Now())>
 <title><cfoutput>#cgi.server_name#</cfoutput></title>
