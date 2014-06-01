@@ -35,3 +35,4 @@
             value="#form.message#"
             />
 </cfhttp>
+<cfdump var="#cfhttp#">
