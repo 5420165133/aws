@@ -5,4 +5,4 @@
   <h1>#TimeFormat(correct_now, "hh:mm tt")#</h1>
 </cfoutput>
 source_code_location: <cfoutput>#source_code_location#</cfoutput>
-<meta http-equiv="refresh" content="30">
+<meta http-equiv="refresh" content="200">
