@@ -1,8 +1,6 @@
 <cfset accountSid="ACae7d8cc3fc5d80919189f5d272cb1fcd" />
 <cfset AuthToken="1b72527a48bdb532b85dc05b780ec59d" />
-<cfset twilioUsername = "tpmotc@ThorntonTechnology.com" />
-<cfset twilioPassword = "ACar2" />
-<cfset twilioFrom = "260-791-2120" />
+<cfset twilioFrom = "260-302-1900" />
 <cfset twilioSMSResource = (
     "https://api.twilio.com/2010-04-01/Accounts/ACae7d8cc3fc5d80919189f5d272cb1fcd/Messages"
     ) />
