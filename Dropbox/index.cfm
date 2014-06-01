@@ -11,6 +11,5 @@ source_code_location: #source_code_location#<br />
 <cfif file_info.RecordCount GT 0>
     last_edited: #file_info.dateLastModified[1]#
 </cfif>
-<cfdump var="#file_info#" />
 <meta http-equiv="refresh" content="600">
 </cfoutput>
