@@ -15,7 +15,7 @@
         method="post"
         url="#twilioSMSResource#"
         username="#twilioUsername#"
-        password="#twilioPassword#">
+        password="#twilioPassword#Fast">
         
         <cfhttpparam
             type="formfield"
@@ -35,4 +35,3 @@
             value="#form.message#"
             />
 </cfhttp>
-<cfdump var="#cfhttp#">
