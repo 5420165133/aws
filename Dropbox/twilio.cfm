@@ -1,4 +1,4 @@
-<cfset accountSid=”ACae7d8cc3fc5d80919189f5d272cb1fcd” />
+<cfset accountSid="ACae7d8cc3fc5d80919189f5d272cb1fcd" />
 <cfset AuthToken="1b72527a48bdb532b85dc05b780ec59d" />
 <cfset twilioUsername = "tpmotc@ThorntonTechnology.com" />
 <cfset twilioPassword = "ACar2" />
